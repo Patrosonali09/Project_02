@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonali Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('img/man-7847245_1920.jpg');
+            height: 794px;
+        
+         }
+
+         .left{
+            display: inline-block;
+            left: 65px;
+            top: 20px;
+            color: white;
+            position: absolute;
+
+         }
+         .left img{
+            width: 68px;
+            filter: invert(100%);
+         }
+         .left div{
+            line-height: 20px;
+            font-family: 'Baloo Bhai', cursive;
+            text-align:center;
+            font-size: 18px;
+         }
+         .mid{
+            font-family: 'Baloo Bhai', cursive;
+            display: block;
+            width: 50%;
+            margin: 0px auto;
+            color: rgb(255, 244, 244);
+            
+
+         }
+         .right{
+            font-family: 'Baloo Bhai', cursive;
+            position: absolute;
+            right: 4px;
+            top: 20px;
+            display: inline-block;
+            color: white;
+            
+        
+        }
+        .navbar{
+            display: inline-block;
+        }
+
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 34px;
+
+        }
+        .navbar li a:hover, .navbar li a.active{
+           text-decoration: underline;
+           color: rgb(159, 159, 192);
+        }
+        .btn{
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px;
+            background-color: #82746d;
+            color: white;
+            padding: 10px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color:gray;
+        }
+        .cointainer{
+            color:#a1988b;
+            border: 2px solid rgb(225, 204, 204);
+            margin: 171px 2px;
+            padding: 21px 12px;
+            width: 28%;
+            border-radius: 2px;
+        }
+        .form-group input{
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 214px;
+            padding: 9px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 15px;
+            border-radius: 8px;
+        }
+        .cointainerh1{
+            text-align: center;
+        }
+
+        .cointainer button{
+            display: block;
+            width: 40%;
+            margin: auto;
+        }
+
+</style>
+<body>
+    <header class="header">
+        <!--Left box for logo-->
+        <div class="left"> 
+            <img src="img/gym-logo-7291149_640.png" alt="">
+            <div>Fitness Hub</div>
+
+        </div>
+        <!--Mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+
+        </div>
+        <!--Right box for buttons-->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="cointainer">
+        <h1>Join the best gym of Berhampur now</h1>
+        <form action="noaction.p">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
